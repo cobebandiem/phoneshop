@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import './css/grid.css';
 import './App.css';
+import { HashRouter , Route, Switch } from 'react-router-dom';
+import { routesPage } from './routes';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  let showPages = (routesPage) => {
+    let rs = null;
+    if (routesPage.length) {
+      rs = routesPage.map((route, index) => {
+        return (
+          <Route key={index} path={route.path} exact={route.exact} component={route.main} />
+        );
+      })
+    }
+    return rs;
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <div className="App">
+        <ToastContainer/>
+        <Switch>
+          {showPages(routesPage)}
+        </Switch>
+      </div>
+    </HashRouter>
   );
 }
 
