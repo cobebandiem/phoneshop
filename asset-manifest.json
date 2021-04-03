@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/phoneshop/static/css/main.503d307f.chunk.css",
-    "main.js": "/phoneshop/static/js/main.382ce13d.chunk.js",
-    "main.js.map": "/phoneshop/static/js/main.382ce13d.chunk.js.map",
+    "main.css": "/phoneshop/static/css/main.ce53a411.chunk.css",
+    "main.js": "/phoneshop/static/js/main.25352b12.chunk.js",
+    "main.js.map": "/phoneshop/static/js/main.25352b12.chunk.js.map",
     "runtime-main.js": "/phoneshop/static/js/runtime-main.e622f5ad.js",
     "runtime-main.js.map": "/phoneshop/static/js/runtime-main.e622f5ad.js.map",
     "static/css/2.3f6a4e7d.chunk.css": "/phoneshop/static/css/2.3f6a4e7d.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.4803a831.chunk.js.map": "/phoneshop/static/js/2.4803a831.chunk.js.map",
     "index.html": "/phoneshop/index.html",
     "static/css/2.3f6a4e7d.chunk.css.map": "/phoneshop/static/css/2.3f6a4e7d.chunk.css.map",
-    "static/css/main.503d307f.chunk.css.map": "/phoneshop/static/css/main.503d307f.chunk.css.map",
+    "static/css/main.ce53a411.chunk.css.map": "/phoneshop/static/css/main.ce53a411.chunk.css.map",
     "static/js/2.4803a831.chunk.js.LICENSE.txt": "/phoneshop/static/js/2.4803a831.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e622f5ad.js",
     "static/css/2.3f6a4e7d.chunk.css",
     "static/js/2.4803a831.chunk.js",
-    "static/css/main.503d307f.chunk.css",
-    "static/js/main.382ce13d.chunk.js"
+    "static/css/main.ce53a411.chunk.css",
+    "static/js/main.25352b12.chunk.js"
   ]
 }
